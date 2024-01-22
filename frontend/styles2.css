@@ -1,0 +1,72 @@
+/* Reset default margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply box-sizing: border-box to all elements for consistent sizing */
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Header styles */
+.header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.logo {
+    width: 150px; /* Adjust the width of the logo */
+    height: auto;
+    margin-bottom: 15px; /* Add some space below the logo */
+}
+
+/* Centering the form content */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px; /* Add top margin to the form */
+}
+
+/* Styling for input fields */
+input[type="text"],
+input[type="password"],
+input[type="submit"] {
+    margin: 5px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 200px; /* Adjust width as needed */
+    box-sizing: border-box; /* Ensure padding is included in the width */
+}
+
+/* Button styles */
+button,
+input[type="submit"] {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #3498db;
+    color: #fff;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+button:hover,
+input[type="submit"]:hover {
+    background-color: #2980b9;
+}

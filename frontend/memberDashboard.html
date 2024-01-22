@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Member Dashboard</title>
+    <link rel="stylesheet" href="styles5.css"> 
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <h1>Welcome, Member!</h1>
+
+    <div class="container">
+        <form id="editInfoForm">
+            <h2>Edit Your Information</h2>
+            <label for="username">Username:</label>
+            <input type="text" id="username" placeholder="Your Username">
+
+            <label for="currentPassword">Current Password:</label>
+            <input type="password" id="currentPassword" placeholder="Current Password">
+
+            <label for="newPassword">New Password:</label>
+            <input type="password" id="newPassword" placeholder="New Password">
+
+            <button type="submit" id="saveInfoButton">Save Information</button>
+        </form>
+
+        <form id="selectSessionForm">
+            <div class="session-selection">
+                <h2>Select Session</h2>
+                <label for="session">Choose a session:</label>
+                <select id="session">
+                    <option value="session1">Session 1</option>
+                    <option value="session2">Session 2</option>
+                    <option value="session3">Session 3</option>
+                </select>
+
+                <button type="submit" id="selectSessionButton">Select Session</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

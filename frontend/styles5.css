@@ -1,0 +1,54 @@
+/* styles5.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+    background-color: #f0f7fc; /* Light blue background */
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+h2 {
+    color: #336699; /* Darker blue for headers */
+}
+
+form {
+    margin-bottom: 20px;
+    border: 1px solid #c8d7e1; /* Lighter border color */
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #336699; /* Darker blue for labels */
+}
+
+input[type="text"],
+input[type="password"],
+select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #c8d7e1; /* Lighter border color */
+    border-radius: 3px;
+}
+
+input[type="submit"] {
+    padding: 10px 15px;
+    background-color: #336699; /* Darker blue for submit button */
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #5588b7; /* Darker blue on hover */
+}

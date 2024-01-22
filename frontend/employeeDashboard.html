@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Edit Your Information</title>
+  <link rel="stylesheet" type="text/css" href="styles5.css">
+  <script src="script.js"></script>
+</head>
+<body>
+  <h1>Welcome, Employee!</h1>
+  
+  <div>
+    <h2>Edit Your Information</h2>
+    <label for="username">Username:</label>
+    <input type="text" id="username" placeholder="Your Username">
+
+    <label for="currentPassword">Current Password:</label>
+    <input type="password" id="currentPassword" placeholder="Current Password">
+
+    <label for="newPassword">New Password:</label>
+    <input type="password" id="newPassword" placeholder="New Password">
+
+    <label for="timeSlot">Pick Your Available Time:</label>
+    <select id="timeSlot">
+      <option value="morning">Morning</option>
+      <option value="afternoon">Afternoon</option>
+      <option value="evening">Evening</option>
+    </select>
+
+    <button onclick="updatedEmployeeInfo(event)">Save Information</button>
+  </div>
+</body>
+</html>
